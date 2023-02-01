@@ -16,4 +16,18 @@
   width: 100%;
   background-color: red;
   padding: 30px;
+
+  /* From here */
+  display: flex;
+  flex-direction: row; /* default row */
+  flex-wrap: wrap; /* default nwrap* si tiene que caer o cartarce*/
+  gap: 7px;
+}
+
+.item {
+  border: 2px solid yellow;
+  /*   width: 50%; */ /* para 2 items */
+  width: 25%; /* para 4 items */
+  height: 100px;
+  min-width: 200px; /* hace el corte a los 200px  wrap*/
 }
